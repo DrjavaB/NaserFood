@@ -1304,6 +1304,9 @@ div a {
 	bottom: -2.7vw;
 	box-shadow: 0px 13px 15px -4px #62626261;
 }
+#album{
+	margin-top: 6rem;
+}
 .album-heading{
 	text-align: center;
 	color: darkblue;
@@ -1326,7 +1329,6 @@ div a {
 #rw-factory {
 	min-height: 350px;
 	width: 100%;
-	float: right;
 	background-image: url(../images/category-header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1350,8 +1352,10 @@ div a {
 	padding: 0 20px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	position: relative;
-	top: -50px;
+	top: -30px;
+	
 }
 
 .rw-factory-box {
@@ -1362,6 +1366,7 @@ div a {
 	top: -75px;
 	margin-bottom: 40px;
 	color: white;
+	width: 50%;
 }
 .rw-factory-box img {
 	width: 65px;
@@ -1379,6 +1384,10 @@ div a {
 	font-size: 2rem;
 	font-weight: 400;
 }
+.container-n-box{
+	width: 50%;
+}
+
 @media (max-width: 1650px) {
 	.slider-box {
 		width: 70%;
@@ -1503,6 +1512,15 @@ div a {
 	.slick-slide img {
 		margin: 0 auto;
 	}
+	.rw-factory-box {
+		width: 300px;
+	}
+	.container-n {
+		flex-wrap: wrap;
+	}
+	#rw-factory {
+		height: 550px;
+	}
 }
 
 @media (max-width: 575.98px) {
@@ -1538,5 +1556,12 @@ div a {
 	
 	.slick-slide img {
 		margin: 0 auto;
+	}
+	#rw-factory {
+		height: 950px;
+	}
+	.container-n {
+		top: 40px;
+		flex-direction: column;
 	}
 }
