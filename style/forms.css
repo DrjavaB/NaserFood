@@ -1,0 +1,52 @@
+/*form-table-programmed-request*/
+#form-table-programmed-request .ui.grid{
+    padding: 6px;
+    margin: 4px auto;
+    direction: rtl;
+}
+#form-table-programmed-request .ui.segment{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+#form-table-programmed-request .ui.grid .column{
+    padding: 2px;
+}
+#form-table-programmed-request.logo-section{
+    padding-right: 13%;
+}
+#form-table-programmed-request .logo-section >img{
+    float: right;
+    margin-right: 33px;
+}
+#form-table-programmed-request h3.title{
+    padding-right: 0px !important;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 9px !important;
+    font-weight: 400;
+}
+#form-table-programmed-request h3.result {
+    width: 60%;
+    background: #80808061;
+    padding: 3px;
+    margin-right: .5rem;
+    position: absolute;
+    left: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+#form-table-programmed-request h3.yekan {
+    font-size: 91%;
+    margin: 0px 0px 4px 0px;;
+}
+#form-table-programmed-request label {
+    font-size: 8px;
+    margin: 0px !important;
+}
+#form-table-programmed-request .fields {
+     margin: 0px !important;
+ }
+#form-table-programmed-request input {
+    padding:  0px !important;
+}
+/*form-table-programmed-request*/

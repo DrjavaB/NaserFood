@@ -1,0 +1,39 @@
+.slick-next{
+    position: absolute;
+    right: 9%;
+    top: 50%;
+}
+.slick-prev{
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    z-index: 2;
+}
+.slick-arrow{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgba(91, 92, 91, 0.22) !important;
+    font-size: 20px !important;
+}
+.slick-dots {
+    display: block !important;
+    list-style: none;
+    direction: rtl;
+    text-align: center;
+    bottom: 3rem;
+    position: relative;
+    margin: 0px;
+    height: 0px !important;
+}
+.slick-dots li{
+    display: inline-block;
+    cursor: pointer;
+
+}
+.slick-dots li button {
+    background: none;
+    border: none;
+    color: gray;
+}
+.slick-dots li.slick-active button {
+    color: #4caf50;
+}
